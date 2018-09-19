@@ -1,3 +1,7 @@
+# Binary search in array
+# Asymptotic complexity (O) = log n
+
+
 def binary_search(arr, find):
     low = 0
     high = len(arr) - 1
@@ -15,5 +19,5 @@ def binary_search(arr, find):
 
 
 arr = [1, 3, 6, 8, 9, 11, 15]
-print(binary_search(arr, 6))
-print(binary_search(arr, -5))
+print(binary_search(arr, 6))  # 2
+print(binary_search(arr, -5))  # None
