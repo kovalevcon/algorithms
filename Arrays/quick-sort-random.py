@@ -4,6 +4,10 @@ import random
 
 
 def quick_sort_random(arr):
+    """
+    :type arr: list
+    :rtype: list
+    """
     if len(arr) < 2:
         return arr
     else:
@@ -13,7 +17,6 @@ def quick_sort_random(arr):
         less = [i for i in arr if i <= pivot]
         greater = [i for i in arr if i > pivot]
 
-        print(pivot, less, greater)
         return quick_sort_random(less) + [pivot] + quick_sort_random(greater)
 
 

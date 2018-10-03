@@ -3,6 +3,11 @@
 
 
 def binary_search(arr, find):
+    """
+    :type arr: list
+    :type find: int
+    :rtype: int|None
+    """
     low = 0
     high = len(arr) - 1
 

@@ -3,6 +3,10 @@
 
 
 def count_recursive(arr):
+    """
+    :type arr: list
+    :rtype: int
+    """
     if not arr:
         return 0
 

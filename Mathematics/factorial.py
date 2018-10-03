@@ -3,6 +3,10 @@
 
 
 def fact(x):
+    """
+    :type x: int
+    :rtype: int
+    """
     if x == 1:
         return 1
     else:

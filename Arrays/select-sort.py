@@ -3,6 +3,10 @@
 
 
 def find_smallest_index(arr):
+    """
+    :type arr: list
+    :rtype: list
+    """
     smallest, smallest_index = arr[0], 0
     for i in range(len(arr)):
         if arr[i] < smallest:
